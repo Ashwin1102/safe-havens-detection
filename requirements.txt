@@ -1,1 +1,6 @@
 tabulate
+matplotlib
+numpy
+pandas
+joblib
+seaborn
