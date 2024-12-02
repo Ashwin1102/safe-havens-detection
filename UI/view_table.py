@@ -11,7 +11,7 @@ import numpy as np
 import joblib
 
 
-conn_obj = sqlite3.connect('../safe-haven-detection.db')
+conn_obj = sqlite3.connect('safe-haven-detection.db')
 
 conn = Connection(conn_obj).connect()
 conn.execute("PRAGMA foreign_keys = ON;")
